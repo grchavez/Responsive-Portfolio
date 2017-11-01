@@ -215,3 +215,56 @@ button  {
 	border-radius: 5px;
 }
 
+
+
+/* Start of Media Query */
+
+@media screen and (max-width: 980px) {
+	body {
+		background: #666;
+	}
+
+	#content {
+		width: 300px;
+
+	}
+
+	#connect {
+		margin-right: 130px;
+		width: 235px;
+}
+	#social {
+		padding: auto 0px;
+		margin-left: -10px;
+	}
+
+	.profile-pic {
+		float: none;
+		margin-left: 50px;
+	}
+ }
+
+@media screen and (max-width: 768px) {
+
+	body {
+		background-color: #353;
+	}
+	#content {
+		width: 500px;
+	}
+
+	#connect {
+		width: 500px;
+		margin-right: 110px;
+	}
+	.profile-pic {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	body {
+		background-color: #595;
+	}
+}
