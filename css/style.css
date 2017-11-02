@@ -267,4 +267,50 @@ button  {
 	body {
 		background-color: #595;
 	}
+
+	#content {
+		margin: 10px 10px;
+		float: none;
+
+	}
+
+	#connect {
+		margin-right: 60px;
+
+	}
+
+	h3 {
+		text-align: left;
+	}
+
+	.wrap {
+		position: static;
+		padding-bottom: 60px;
+		text-align: center;
+	}
+
+	#headline-left {
+		float: none;
+		margin: auto 0px;
+		text-align: center;
+
+	}
+
+	#nav-right {
+		margin: 0 
+	}
+
+	ul {
+		float: none;
+
+	}
+
+	li {
+		float: none;
+	}
+
+	.profile-pic {
+		float: none;
+		margin: 0px 125px;
+	}
 }
