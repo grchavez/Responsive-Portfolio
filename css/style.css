@@ -231,6 +231,8 @@ button  {
 
 	}
 
+	
+
 	#connect_gallery {
 		margin-right: 130px;
 		width: 235px;
@@ -262,6 +264,14 @@ button  {
 		width: 500px;
 	}
 
+	#content_connect {
+		width: 500px;
+	}
+
+	#content_contact {
+		width: 500px;
+	}
+
 	#connect {
 		width: 500px;
 		margin-right: 110px;
@@ -288,6 +298,11 @@ button  {
 	}
 
 	#content_gallery {
+		margin: 10px 10px;
+		float: none;
+	}
+
+	#content_contact {
 		margin: 10px 10px;
 		float: none;
 	}
