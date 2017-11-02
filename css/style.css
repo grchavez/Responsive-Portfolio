@@ -220,12 +220,20 @@ button  {
 /* Start of Media Query */
 
 @media screen and (max-width: 980px) {
-	body {
-		background: #666;
-	}
 
 	#content {
 		width: 300px;
+
+	}
+
+	#content_gallery {
+		width: 300px;
+
+	}
+
+	#connect_gallery {
+		margin-right: 130px;
+		width: 235px;
 
 	}
 
@@ -246,10 +254,11 @@ button  {
 
 @media screen and (max-width: 768px) {
 
-	body {
-		background-color: #353;
-	}
 	#content {
+		width: 500px;
+	}
+
+	#content_gallery {
 		width: 500px;
 	}
 
@@ -257,6 +266,14 @@ button  {
 		width: 500px;
 		margin-right: 110px;
 	}
+
+	#connect_gallery {
+		width: 500px;
+		margin-right: 80	px;
+
+
+	}
+
 	.profile-pic {
 		float: left;
 	}
@@ -264,17 +281,23 @@ button  {
 
 @media screen and (max-width: 640px) {
 
-	body {
-		background-color: #595;
-	}
-
 	#content {
 		margin: 10px 10px;
 		float: none;
 
 	}
 
+	#content_gallery {
+		margin: 10px 10px;
+		float: none;
+	}
+
 	#connect {
+		margin-right: 60px;
+
+	}
+
+	#connect_gallery {
 		margin-right: 60px;
 
 	}
